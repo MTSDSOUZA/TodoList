@@ -96,6 +96,9 @@ header {
 }
 
 .form-task-label {
+  line-height: 1.0;
+  font-weight: 800;
+  color: var(--color-text-dark);
 
 }
 
