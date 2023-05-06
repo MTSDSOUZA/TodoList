@@ -49,6 +49,7 @@ h6 {
 header {
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
+  background-color: var(--color-interface-dark);
 }
 
 .header-item {
@@ -77,6 +78,7 @@ header {
   line-height: 1.2;
   font-weight: 700;
   color: var(--color-brand-primary);
+  font-size: small;
 }
 
 .container {
@@ -121,4 +123,8 @@ background-color: var(--color-brand-secondary);
 color: var(--color-common-light);
 border-radius: 15%;
 width: fit-content;
+}
+.section-bloco{
+background-color: var(--color-interface-dark);
+
 }
