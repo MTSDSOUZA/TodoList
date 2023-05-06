@@ -49,7 +49,6 @@ h6 {
 header {
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
-  background-color: var(--color-interface-dark);
 }
 
 .header-item {
@@ -85,6 +84,7 @@ header {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 15%;
 }
 
 .avatar {
@@ -114,8 +114,7 @@ header {
 vertical-align: middle;
 height: 4vh;
 width: 65vw;
-border-spacing: 1px;
-
+margin-bottom: var(--spacing-large);
 }
 
 .form-task-button {
@@ -126,23 +125,29 @@ color: var(--color-common-light);
 border-radius: 15%;
 width: 10vw;
 text-align: center;
+margin-bottom: var(--spacing-large);
 }
-.section-bloco{
-background-color: var(--color-interface-dark);
+/* .section-bloco{
 
-}
+} */
 .checkbox{
   display: flex;
   padding: var(--spacing-xsmall);
   width: 100%;
   text-decoration: line-through;
 }
-.checkbox, p{
+.checkbox p{
   width: 100%;
-  margin: 2px;
-  padding: 6px;
-}
-.button{
-  
+  margin: 10px;
 
+}
+.checkbox-button {
+  color: var(--color-text-dark);
+  padding: var(--spacing-small);
+}
+.fundo-section{
+  background-color: var(--color-common-light);
+border-radius: 6%;
+padding-bottom: 100%;
+border: 1px solid var(--color-text-light);
 }
