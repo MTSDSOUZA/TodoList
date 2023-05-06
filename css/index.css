@@ -69,8 +69,10 @@ header {
 .title {
   line-height: 1.5;
   letter-spacing: -1px;
-  font-weight: 300;
-  color: var(--color-text-dark);
+  font-weight: 500;
+  color: var(--color-text-light);
+  font-size: 34px;
+
 }
 
 .subtitle {
