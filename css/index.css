@@ -94,21 +94,28 @@ header {
 .form-task {
   margin-top: var(--spacing-large);
 }
-.alinha-b{
+/* .alinha-b{
   display: flex; align-items: center;
-}
+  max-height: 5vh;
+} */
 .form-task-label {
-  line-height: 1.0;
+  display: block;
+  line-height: 0.9;
   font-weight: 800;
   color: var(--color-text-dark);
+  height: 4vh;
 
 }
 
 .form-task-input {
-
+vertical-align: middle;
+height: 4vh;
 }
 
 .form-task-button {
-  
+  height: 4vh;
+  vertical-align: middle;
+ background-color: var(--color-brand-secondary); 
+color: var(--color-common-light);
+border-radius: 15%;
 }
-
