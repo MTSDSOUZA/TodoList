@@ -71,7 +71,7 @@ header {
   line-height: 1.5;
   letter-spacing: -1px;
   font-weight: 300;
-  color: var(--color-text-light);
+  color: var(--color-text-dark);
 }
 
 .subtitle {
@@ -105,6 +105,7 @@ header {
   line-height: 0.9;
   font-weight: 800;
   color: var(--color-text-dark);
+  margin-bottom: 0.5vh;
     
 
 }
@@ -112,7 +113,8 @@ header {
 .form-task-input {
 vertical-align: middle;
 height: 4vh;
-width: fit-content;
+width: 65vw;
+
 
 }
 
@@ -122,7 +124,8 @@ vertical-align: middle;
 background-color: var(--color-brand-secondary); 
 color: var(--color-common-light);
 border-radius: 15%;
-width: fit-content;
+width: 10vw;
+text-align: center;
 }
 .section-bloco{
 background-color: var(--color-interface-dark);
