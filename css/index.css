@@ -94,7 +94,9 @@ header {
 .form-task {
   margin-top: var(--spacing-large);
 }
-
+.alinha-b{
+  display: flex; align-items: center;
+}
 .form-task-label {
   line-height: 1.0;
   font-weight: 800;
