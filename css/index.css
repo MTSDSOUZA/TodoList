@@ -134,4 +134,15 @@ background-color: var(--color-interface-dark);
 .checkbox{
   display: flex;
   padding: var(--spacing-xsmall);
+  width: 100%;
+  text-decoration: line-through;
+}
+.checkbox, p{
+  width: 100%;
+  margin: 2px;
+  padding: 6px;
+}
+.button{
+  
+
 }
