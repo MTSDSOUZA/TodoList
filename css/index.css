@@ -103,19 +103,22 @@ header {
   line-height: 0.9;
   font-weight: 800;
   color: var(--color-text-dark);
-  height: 4vh;
+    
 
 }
 
 .form-task-input {
 vertical-align: middle;
 height: 4vh;
+width: fit-content;
+
 }
 
 .form-task-button {
-  height: 4vh;
-  vertical-align: middle;
- background-color: var(--color-brand-secondary); 
+height: 4vh;
+vertical-align: middle;
+background-color: var(--color-brand-secondary); 
 color: var(--color-common-light);
 border-radius: 15%;
+width: fit-content;
 }
